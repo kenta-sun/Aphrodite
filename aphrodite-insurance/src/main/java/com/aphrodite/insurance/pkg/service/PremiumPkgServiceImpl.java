@@ -9,9 +9,9 @@ import com.aphrodite.insurance.premium.dto.PlanPremiumDTO;
 import com.aphrodite.insurance.premium.dto.PremiumCalculateReqDTO;
 import com.aphrodite.insurance.premium.dto.PremiumCalculateResDTO;
 import com.aphrodite.insurance.premium.service.PremiumService;
-import com.eredar.janus.core.annotation.Secondary;
-import com.ethan.step.utils.OraDecimal;
 import com.fasterxml.jackson.core.type.TypeReference;
+import io.github.kentasun.aviatororacle.number.OraDecimal;
+import io.github.kentasun.janus.core.annotation.Secondary;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

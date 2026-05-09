@@ -49,6 +49,18 @@
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
 
+        <!-- OpenFeign 声明式 HTTP 客户端 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <!-- Spring Cloud LoadBalancer（Feign 通过服务名调用的必要依赖） -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-loadbalancer</artifactId>
+        </dependency>
+
         <!-- SpringDoc OpenAPI UI (自动生成文档) -->
         <dependency>
             <groupId>org.springdoc</groupId>

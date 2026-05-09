@@ -1,8 +1,8 @@
 package com.aphrodite.insurance.utils;
 
 import com.aphrodite.common.api.ApiResponse;
-import com.eredar.janus.core.aspect.JanusAspectSupport;
-import com.eredar.janus.core.constants.JanusConstants;
+import io.github.kentasun.janus.core.aspect.JanusAspectSupport;
+import io.github.kentasun.janus.core.constants.JanusConstants;
 
 /**
  * 响应对象相关工具方法

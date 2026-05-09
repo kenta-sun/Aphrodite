@@ -27,9 +27,10 @@ mybatis-plus:
 
 logging:
   level:
-    com:
-      eredar:
-        janus: DEBUG
+    io:
+      github:
+        kentasun:
+          janus: DEBUG
 
 compare:
   janus:

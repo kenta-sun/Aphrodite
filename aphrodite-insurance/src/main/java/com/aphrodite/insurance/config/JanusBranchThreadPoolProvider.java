@@ -2,7 +2,7 @@ package com.aphrodite.insurance.config;
 
 import com.aphrodite.common.exception.AphroditeException;
 import com.aphrodite.common.utils.ContextAwareExecutorService;
-import com.eredar.janus.core.threadpool.JanusBranchThreadPoolMetricsProvider;
+import io.github.kentasun.janus.core.threadpool.JanusBranchThreadPoolMetricsProvider;
 import org.springframework.stereotype.Component;
 
 import java.util.concurrent.BlockingQueue;

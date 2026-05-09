@@ -26,6 +26,7 @@ docker run -d \
   --name aphrodite-insurance-oracle \
   --restart=unless-stopped \
   -p 11001:1521 \
+  -e TZ=Asia/Shanghai \
   -e ORACLE_PWD=123456 \
   -e ORACLE_PDB=APHRODITE_INSURANCE \ # 创建 service name
   -e ORACLE_CHARACTERSET=AL32UTF8 \ # 字符集

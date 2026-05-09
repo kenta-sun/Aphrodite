@@ -2,7 +2,7 @@ package com.aphrodite.insurance.config;
 
 import com.aphrodite.common.utils.ContextAwareExecutorService;
 import com.aphrodite.insurance.common.datasource.DataSourceContextHolder;
-import com.eredar.janus.core.threadpool.JanusThreadPoolComponent;
+import io.github.kentasun.janus.core.threadpool.JanusThreadPoolFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,7 +13,7 @@ import java.util.concurrent.ExecutorService;
 public class ThreadPoolConfig {
 
     @Autowired
-    private JanusThreadPoolComponent janusThreadPoolComponent;
+    private JanusThreadPoolFactory janusThreadPoolComponent;
 
     @Bean
     public ExecutorService janusBranchThreadPool() {

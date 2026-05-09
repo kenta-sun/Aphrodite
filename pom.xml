@@ -39,7 +39,7 @@
         <!-- Janus 版本 -->
         <janus.version>2.7.0</janus.version>
         <!-- Step 版本 -->
-        <step.version>2.7.0</step.version>
+        <step-flow.version>1.0.0</step-flow.version>
         <!-- JEXL 版本 -->
         <jexl.version>3.3</jexl.version>
         <!-- AviatorScript 版本 -->
@@ -89,16 +89,21 @@
 
             <!-- 分流比对框架 -->
             <dependency>
-                <groupId>com.eredar</groupId>
+                <groupId>io.github.kenta-sun</groupId>
                 <artifactId>janus-spring-boot-starter</artifactId>
                 <version>${janus.version}</version>
             </dependency>
 
             <!-- 步骤引擎 -->
             <dependency>
-                <groupId>com.ethan</groupId>
-                <artifactId>step-spring-boot-starter</artifactId>
-                <version>${step.version}</version>
+                <groupId>io.github.kenta-sun</groupId>
+                <artifactId>step-flow-spring-boot-starter</artifactId>
+                <version>${step-flow.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.github.kenta-sun</groupId>
+                <artifactId>step-flow-engine-aviator-oracle</artifactId>
+                <version>${step-flow.version}</version>
             </dependency>
 
             <!-- JWT -->

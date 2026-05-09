@@ -34,14 +34,18 @@
 
         <!-- 分流比对框架 -->
         <dependency>
-            <groupId>com.eredar</groupId>
+            <groupId>io.github.kenta-sun</groupId>
             <artifactId>janus-spring-boot-starter</artifactId>
         </dependency>
 
         <!-- 步骤引擎 -->
         <dependency>
-            <groupId>com.ethan</groupId>
-            <artifactId>step-spring-boot-starter</artifactId>
+            <groupId>io.github.kenta-sun</groupId>
+            <artifactId>step-flow-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.github.kenta-sun</groupId>
+            <artifactId>step-flow-engine-aviator-oracle</artifactId>
         </dependency>
 
         <!-- 健康检查 -->
@@ -108,6 +112,14 @@
                 </executions>
             </plugin>
         </plugins>
+        <testResources>
+            <testResource>
+                <directory>xxx/${project.version}</directory>
+                <includes>
+                    <include>*.json</include>
+                </includes>
+            </testResource>
+        </testResources>
     </build>
 </project>
 

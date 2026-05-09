@@ -1,10 +1,10 @@
 package com.aphrodite.insurance.config.plugins;
 
 import com.aphrodite.insurance.config.JanusSwitchConfig;
-import com.eredar.janus.core.annotation.Global;
-import com.eredar.janus.core.constants.JanusConstants;
-import com.eredar.janus.core.dto.JanusContext;
-import com.eredar.janus.core.plugin.JanusPlugin;
+import io.github.kentasun.janus.core.annotation.Global;
+import io.github.kentasun.janus.core.constants.JanusConstants;
+import io.github.kentasun.janus.core.dto.JanusContext;
+import io.github.kentasun.janus.core.plugin.JanusPlugin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

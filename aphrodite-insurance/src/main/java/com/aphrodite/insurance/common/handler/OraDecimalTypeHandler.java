@@ -1,6 +1,6 @@
 package com.aphrodite.insurance.common.handler;
 
-import com.ethan.step.utils.OraDecimal;
+import io.github.kentasun.aviatororacle.number.OraDecimal;
 import org.apache.ibatis.type.BaseTypeHandler;
 import org.apache.ibatis.type.JdbcType;
 import org.apache.ibatis.type.MappedJdbcTypes;

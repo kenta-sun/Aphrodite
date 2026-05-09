@@ -1,7 +1,7 @@
 package com.aphrodite.insurance.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.ethan.step.utils.OraDecimal;
+import io.github.kentasun.aviatororacle.number.OraDecimal;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
